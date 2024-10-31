@@ -11,14 +11,16 @@ import Testimonial from "./components/Testimonial";
 function App() {
   return (
     <>
-      <Navbar></Navbar>
-      <Hero></Hero>
-      <About></About>
-      <Services></Services>
-      <Menu></Menu>
-      <Reservation></Reservation>
-      <Testimonial></Testimonial>
-      <Contact></Contact>
+      <div>
+        {/* <Navbar></Navbar> */}
+        <Hero></Hero>
+        {/* <About></About> */}
+        {/* <Services></Services> */}
+        {/* <Menu></Menu> */}
+        {/* <Reservation></Reservation> */}
+        {/* <Testimonial></Testimonial> */}
+        {/* <Contact></Contact> */}
+      </div>
     </>
   );
 }
