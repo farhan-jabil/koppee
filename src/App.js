@@ -13,8 +13,8 @@ function App() {
     <>
       <div>
         {/* <Navbar></Navbar> */}
-        <Hero></Hero>
-        {/* <About></About> */}
+        {/* <Hero></Hero> */}
+        <About></About>
         {/* <Services></Services> */}
         {/* <Menu></Menu> */}
         {/* <Reservation></Reservation> */}

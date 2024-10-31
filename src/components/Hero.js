@@ -29,22 +29,28 @@ import { images } from "../utils/demo_images";
 const Hero = () => {
   const settings = {
     infinite: true,
-    speed: 500,
+    speed: 200,
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: true,
+    arrows: false,
     // prevArrow: <PrevArrow />,
-    // nextArrow: <NextArrow />, 
+    // nextArrow: <NextArrow />,
   };
 
   return (
-    <div className="slider-container w-full overflow-hidden relative">
+    <div className="slider-container w-full">
       <Slider {...settings}>
         <div className="w-full">
-          <img src={images.hero1} className="w-full" alt="Hero 1" />
+          <div>
+            <img src={images.hero1} className="w-full" alt="Hero 1" />
+            <img src={images.overlayBottom} className="w-full" alt="" />
+          </div>
         </div>
         <div className="w-full">
-          <img src={images.hero2} className="w-full" alt="Hero 2" />
+          <div>
+            <img src={images.hero2} className="w-full" alt="Hero 2" />
+            <img src={images.overlayBottom} className="w-full" alt="" />
+          </div>
         </div>
       </Slider>
     </div>
