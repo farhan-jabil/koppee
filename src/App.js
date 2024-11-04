@@ -14,8 +14,11 @@ function App() {
       <div>
         {/* <Navbar></Navbar> */}
         {/* <Hero></Hero> */}
+        <div className="py-10"/>
         <About></About>
-        {/* <Services></Services> */}
+        <div className="py-10"/>
+        <Services></Services>
+        <div className="py-10"/>
         {/* <Menu></Menu> */}
         {/* <Reservation></Reservation> */}
         {/* <Testimonial></Testimonial> */}

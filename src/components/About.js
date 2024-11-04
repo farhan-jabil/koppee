@@ -6,8 +6,8 @@ const About = () => {
     <>
       <div className="container py-5">
         <div className="section-header relative text-center pt-28 pb-9">
-          <div className="text-2xl tracking-[5px] text-[#DA9F5B]">ABOUT US</div>
-          <div className="text-5xl font-bold">Serving Since 1950</div>
+          <div className="text-2xl tracking-[5px] text-[#DA9F5B] font-medium uppercase mb-2">About Us</div>
+          <div className="text-5xl font-bold mb-2 text-[#33211D] ">Serving Since 1950</div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-center md:text-left">
           <div className="px-4 py-6 lg:py-11 space-y-4">
