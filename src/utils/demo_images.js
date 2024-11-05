@@ -7,6 +7,9 @@ import service1 from "../images/service-1.jpg";
 import service2 from "../images/service-2.jpg";
 import service3 from "../images/service-3.jpg";
 import service4 from "../images/service-4.jpg";
+import menu1 from "../images/menu-1.jpg";
+import menu2 from "../images/menu-2.jpg";
+import menu3 from "../images/menu-3.jpg";
 
 export const images = {
     hero1,
@@ -18,4 +21,7 @@ export const images = {
     service2,
     service3,
     service4,
+    menu1,
+    menu2,
+    menu3,
 }

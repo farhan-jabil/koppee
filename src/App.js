@@ -15,13 +15,15 @@ function App() {
       <div>
         {/* <Navbar></Navbar> */}
         {/* <Hero></Hero> */}
-        <div className="py-10"/>
-        <About></About>
-        <div className="py-10"/>
-        <Services></Services>
-        <div className="py-10"/>
-        <Offer></Offer>
-        {/* <Menu></Menu> */}
+        <div className="py-10" />
+        <About/>
+        <div className="py-10" />
+        <Services/>
+        <div className="py-10" />
+        {/* <Offer/> */}
+        <div className="py-10" />
+        <Menu/>
+        <div className="py-10" />
         {/* <Reservation></Reservation> */}
         {/* <Testimonial></Testimonial> */}
         {/* <Contact></Contact> */}
