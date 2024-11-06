@@ -16,7 +16,7 @@ const Menu = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 text-center md:text-left gap-12">
           <div>
             <div className="mb-12 font-bold text-[2.5rem] text-[#33211D]">
-              Hot Coffee
+              Hot Coffe
             </div>
             <div className="flex justify-center items-center">
               <div className="relative">
