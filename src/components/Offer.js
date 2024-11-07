@@ -7,9 +7,8 @@ const Offer = () => {
       style={{
         backgroundImage: `url(${images.background})`,
         backgroundSize: "cover",
-        backgroundPosition: "center",
-        height: "100vh",
-        width: "100%",
+        backgroundPosition: "top",
+        backgroundRepeat: "no-repeat"
       }}
     ></div>
   );

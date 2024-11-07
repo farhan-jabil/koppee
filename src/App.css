@@ -1,8 +1,27 @@
+body {
+  background-color: #FFFBF2;
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1rem;
+}
+
+.section-header {
+  position: relative; /* Add this */
+}
+
+.section-header::after {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 100px;
+  top: 0;
+  left: 50%;
+  margin-left: 1px;
+  background: #DA9F5B;
 }
 
 @media (max-width: 1024px) {
@@ -22,15 +41,8 @@
     max-width: 100%;
     padding: 0 0.5rem;
   }
-}
-
-.section-header::after {
-  position: absolute;
-  content: "";
-  width: 2px;
-  height: 100px;
-  top: 0;
-  left: 50%;
-  margin-left: 1px;
-  background: #DA9F5B;
+  
+  .section-header::after {
+    height: 80px;
+  }
 }
