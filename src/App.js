@@ -20,7 +20,7 @@ function App() {
         <div className="py-3 lg:py-10" />
         <Services/>
         <div className="py-3 lg:py-10" />
-        <Offer/>
+        {/* <Offer/> */}
         <div className="py-3 lg:py-10" />
         <Menu/>
         <div className="py-3 lg:py-10" />
