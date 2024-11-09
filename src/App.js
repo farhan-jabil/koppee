@@ -25,7 +25,7 @@ function App() {
         <Menu/>
         <div className="py-3 lg:py-10" />
         {/* <Reservation></Reservation> */}
-        {/* <Testimonial></Testimonial> */}
+        <Testimonial/>
         {/* <Contact></Contact> */}
       </div>
     </>

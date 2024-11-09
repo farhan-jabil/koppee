@@ -10,7 +10,11 @@ import service4 from "../images/service-4.jpg";
 import menu1 from "../images/menu-1.jpg";
 import menu2 from "../images/menu-2.jpg";
 import menu3 from "../images/menu-3.jpg";
-import background from "../images/bg.jpg"
+import background from "../images/bg.jpg";
+import testimonial1 from "../images/testimonial-1.jpg";
+import testimonial2 from "../images/testimonial-2.jpg";
+import testimonial3 from "../images/testimonial-3.jpg";
+import testimonial4 from "../images/testimonial-4.jpg";
 
 export const images = {
     hero1,
@@ -26,4 +30,8 @@ export const images = {
     menu2,
     menu3,
     background,
+    testimonial1,
+    testimonial2,
+    testimonial3,
+    testimonial4,
 }

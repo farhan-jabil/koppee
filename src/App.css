@@ -10,7 +10,8 @@ body {
 }
 
 .section-header {
-  position: relative; /* Add this */
+  position: relative;
+  /* Add this */
 }
 
 .section-header::after {
@@ -23,6 +24,21 @@ body {
   margin-left: 1px;
   background: #DA9F5B;
 }
+
+.slick-dots li button:before {
+  font-size: 16px !important;
+  color: #DA9F5B !important; 
+}
+
+.slick-dots li.slick-active button:before {
+  font-size: 16px !important;
+  color: #33211D !important;
+}
+
+
+
+
+/* responsive */
 
 @media (max-width: 1024px) {
   .container {
@@ -41,7 +57,7 @@ body {
     max-width: 100%;
     padding: 0 0.5rem;
   }
-  
+
   .section-header::after {
     height: 80px;
   }
