@@ -11,7 +11,6 @@ body {
 
 .section-header {
   position: relative;
-  /* Add this */
 }
 
 .section-header::after {
@@ -27,14 +26,19 @@ body {
 
 .slick-dots li button:before {
   font-size: 16px !important;
-  color: #DA9F5B !important; 
+  color: #DA9F5B !important;
+  transition: color 0.3s ease, font-size 0.3s ease;
 }
 
 .slick-dots li.slick-active button:before {
-  font-size: 16px !important;
+  font-size: 20px !important;
   color: #33211D !important;
 }
 
+.slick-dots li button:hover:before {
+  color: #33211D !important;
+  font-size: 20px !important;
+}
 
 
 
