@@ -1,5 +1,5 @@
 body {
-  background-color: #FFFBF2;
+  background-color: #fffbf2;
 }
 
 .container {
@@ -21,26 +21,46 @@ body {
   top: 0;
   left: 50%;
   margin-left: 1px;
-  background: #DA9F5B;
+  background: #da9f5b;
 }
 
 .slick-dots li button:before {
   font-size: 16px !important;
-  color: #DA9F5B !important;
+  color: #da9f5b !important;
   transition: color 0.3s ease, font-size 0.3s ease;
 }
 
 .slick-dots li.slick-active button:before {
   font-size: 20px !important;
-  color: #33211D !important;
+  color: #33211d !important;
 }
 
 .slick-dots li button:hover:before {
-  color: #33211D !important;
+  color: #33211d !important;
   font-size: 20px !important;
 }
 
+.overlay-both::before, .overlay-top::before {
+  background-image: url("./images/overlay-top.png");
+  position: absolute;
+  top: 0px;
+  content: "";
+  width: 100%;
+  height: 15px;
+  left: 0;
+  z-index: 1;
+}
 
+.overlay-both::after, .overlay-bottom::after {
+  background-image: url("./images/overlay-bottom.png");
+  position: absolute;
+  bottom: 0px;
+  content: "";
+  width: 100%;
+  height: 15px;
+  left: 0;
+  z-index: 1;
+}
 
 /* responsive */
 
