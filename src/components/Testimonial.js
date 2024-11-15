@@ -39,7 +39,7 @@ const Testimonial = () => {
     {
       id: 1,
       image: images.testimonial1,
-      name: "John Doe",
+      name: "Jessica",
       designation: "Engineer",
     },
     {
@@ -51,14 +51,14 @@ const Testimonial = () => {
     {
       id: 3,
       image: images.testimonial3,
-      name: "Sam Wilson",
-      designation: "Businessman",
+      name: "Jennifer Wilson",
+      designation: "Lawyer",
     },
     {
       id: 4,
       image: images.testimonial4,
       name: "Max Johnson",
-      designation: "Lawyer",
+      designation: "Businessman",
     },
   ];
 
