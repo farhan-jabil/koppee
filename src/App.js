@@ -24,7 +24,8 @@ function App() {
         <div className="py-3 lg:py-12"/>
         <Menu/>
         <div className="py-3 lg:py-12"/>
-        {/* <Reservation></Reservation> */}
+        <Reservation></Reservation>
+        <div className="py-3 lg:py-12"/>
         <Testimonial/>
         <div className="py-3 lg:py-12"/>
         {/* <Contact></Contact> */}
