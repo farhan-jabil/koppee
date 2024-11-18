@@ -14,7 +14,7 @@ function App() {
     <>
       <div>
         {/* <Navbar></Navbar> */}
-        {/* <Hero></Hero> */}
+        <Hero></Hero>
         <div className="py-3 lg:py-12"/>
         <About/>
         <div className="py-3 lg:py-12"/>
