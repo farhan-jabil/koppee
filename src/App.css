@@ -24,6 +24,18 @@ body {
   background: #da9f5b;
 }
 
+.slider-container-elements::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(51, 33, 29, 0.7);
+  z-index: 1;
+}
+
+
 .slick-dots li button:before {
   font-size: 16px !important;
   color: #da9f5b !important;

@@ -43,12 +43,12 @@ const Hero = () => {
   return (
     <div className="slider-container w-full overlay-bottom relative">
       <Slider {...settings}>
-        <div className="w-full">
+        <div className="slider-container-elements relative w-full">
           <div>
             <img src={images.hero1} className="w-full" alt="Hero 1" />
           </div>
         </div>
-        <div className="w-full">
+        <div className="slider-container-elements relative w-full">
           <div>
             <img src={images.hero2} className="w-full" alt="Hero 2" />
           </div>
