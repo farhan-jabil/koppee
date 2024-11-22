@@ -56,14 +56,14 @@ const Hero = () => {
   };
 
   return (
-    <div className="slider-container w-full overlay-bottom relative">
+    <div className="hero slider-container w-full overlay-bottom relative">
       <Slider {...settings}>
         {slides.map((slide, index) => (
           <div key={index} className="slider-container-elements relative w-full">
             <div>
               <img
                 src={slide.image}
-                className="w-full h-[60vh] md:h-[75vh] lg:h-screen object-cover"
+                className="w-full h-[60vh] md:h-[75vh] lg:h-full object-cover"
                 alt={`Slide ${index + 1}`}
               />
             </div>

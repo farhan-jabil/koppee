@@ -4,7 +4,7 @@ import { images } from "../utils/demo_images";
 const About = () => {
   return (
     <>
-      <div className="container py-5">
+      <div className="about container py-5">
         <div className="section-header relative text-center pt-24 md:pt-28 pb-9">
           <div className="text-2xl tracking-[5px] text-[#DA9F5B] font-medium uppercase mb-2">About Us</div>
           <div className="text-5xl font-bold mb-2 text-[#33211D] ">Serving Since 1950</div>

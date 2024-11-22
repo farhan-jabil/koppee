@@ -3,7 +3,7 @@ import { images } from "../utils/demo_images";
 
 const Reservation = () => {
   return (
-    <div className="container overlay-both relative">
+    <div className="reservation container overlay-both relative">
       <div
         className="grid grid-cols-1 md:grid-cols-2"
         style={{
