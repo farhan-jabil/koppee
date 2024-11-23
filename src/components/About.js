@@ -5,12 +5,12 @@ const About = () => {
   return (
     <>
       <div className="about container py-5">
-        <div className="section-header relative text-center pt-24 md:pt-28 pb-9">
+        <div data-aos="fade-up" className="section-header relative text-center pt-24 md:pt-28 pb-9">
           <div className="text-2xl tracking-[5px] text-[#DA9F5B] font-medium uppercase mb-2">About Us</div>
           <div className="text-5xl font-bold mb-2 text-[#33211D] ">Serving Since 1950</div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-center md:text-left">
-          <div className="px-4 py-6 lg:py-11 space-y-4">
+          <div data-aos="fade-right" className="px-4 py-6 lg:py-11 space-y-4">
             <div className="text-4xl font-bold">Our Story</div>
             <div className="text-xl font-normal font-roboto">
               Eos kasd eos dolor vero vero, lorem stet diam rebum. Ipsum amet
@@ -32,7 +32,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="md:hidden lg:block">
+          <div data-aos="fade-down" className="md:hidden lg:block">
             <div className="h-full w-full">
               <img
                 src={images.about}
@@ -42,7 +42,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="px-4 py-6 lg:py-11 space-y-4">
+          <div data-aos="fade-left" className="px-4 py-6 lg:py-11 space-y-4">
             <div className="mb-4 text-4xl font-bold">Our Vision</div>
             <div className="font-montserrat text-[#555]">
               Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo

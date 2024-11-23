@@ -5,7 +5,7 @@ const Menu = () => {
   return (
     <>
       <div className="menu container py-5">
-        <div className="section-header relative text-center pt-24 md:pt-28 pb-9">
+        <div data-aos="fade-up" className="section-header relative text-center pt-24 md:pt-28 pb-9">
           <div className="text-2xl tracking-[5px] text-[#DA9F5B] font-medium uppercase mb-2">
             Menu & Pricing
           </div>
@@ -15,11 +15,11 @@ const Menu = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 text-center md:text-left gap-12">
           <div>
-            <div className="mb-12 font-bold text-[2.5rem] text-[#33211D]">
+            <div data-aos="fade-left" className="mb-12 font-bold text-[2.5rem] text-[#33211D]">
               Hot Coffee
             </div>
             <div className="flex flex-col space-y-10">
-              <div className="flex justify-center items-center">
+              <div data-aos="fade-up-left" className="flex justify-center items-center">
                 <div className="relative">
                   <img
                     src={images.menu1}
@@ -42,7 +42,7 @@ const Menu = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex justify-center items-center">
+              <div data-aos="fade-left" className="flex justify-center items-center">
                 <div className="relative">
                   <img
                     src={images.menu2}
@@ -65,7 +65,7 @@ const Menu = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex justify-center items-center">
+              <div data-aos="fade-down-left" className="flex justify-center items-center">
                 <div className="relative">
                   <img
                     src={images.menu3}
@@ -91,11 +91,11 @@ const Menu = () => {
             </div>
           </div>
           <div>
-            <div className="mb-12 font-bold text-[2.5rem] text-[#33211D]">
+            <div data-aos="fade-right" className="mb-12 font-bold text-[2.5rem] text-[#33211D]">
               Cold Coffee
             </div>
             <div className="flex flex-col space-y-10">
-              <div className="flex justify-center items-center">
+              <div data-aos="fade-up-right" className="flex justify-center items-center">
                 <div className="relative">
                   <img
                     src={images.menu1}
@@ -118,7 +118,7 @@ const Menu = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex justify-center items-center">
+              <div data-aos="fade-right" className="flex justify-center items-center">
                 <div className="relative">
                   <img
                     src={images.menu2}
@@ -141,7 +141,7 @@ const Menu = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex justify-center items-center">
+              <div data-aos="fade-down-right" className="flex justify-center items-center">
                 <div className="relative">
                   <img
                     src={images.menu3}

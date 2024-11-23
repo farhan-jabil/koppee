@@ -56,7 +56,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="hero slider-container w-full overlay-bottom relative">
+    <div data-aos="fade-down" className="hero slider-container w-full overlay-bottom relative">
       <Slider {...settings}>
         {slides.map((slide, index) => (
           <div key={index} className="slider-container-elements relative w-full">

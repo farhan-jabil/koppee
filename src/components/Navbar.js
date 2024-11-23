@@ -17,7 +17,7 @@ const Navbar = () => {
       {/* Desktop Menu */}
       <div className="hidden md:flex space-x-8">
         {[
-          "Home",
+          "Hero",
           "About",
           "Service",
           "Menu",
@@ -31,9 +31,9 @@ const Navbar = () => {
             smooth={true}
             duration={500}
             spy={true}
-            activeClass={item === "Home" ? "text-[#DA9F5B]" : ""}
+            activeClass={item === "Hero" ? "text-[#DA9F5B]" : ""}
             className={`cursor-pointer font-bold ${
-              item === "Home" ? "text-[#DA9F5B]" : "text-white"
+              item === "Hero" ? "text-[#DA9F5B]" : "text-white"
             } hover:text-[#DA9F5B]`}
           >
             {item}
@@ -68,7 +68,7 @@ const Navbar = () => {
         <div className="absolute top-20 left-0 w-full bg-black text-white p-6 md:hidden">
           <div className="flex flex-col space-y-6">
             {[
-              "Home",
+              "Hero",
               "About",
               "Service",
               "Menu",
@@ -82,10 +82,10 @@ const Navbar = () => {
                 smooth={true}
                 duration={500}
                 spy={true}
-                activeClass={item === "Home" ? "text-[#DA9F5B]" : ""}
+                activeClass={item === "Hero" ? "text-[#DA9F5B]" : ""}
                 onClick={() => setIsMenuOpen(false)}
                 className={`cursor-pointer ${
-                  item === "Home" ? "text-[#DA9F5B]" : "text-white"
+                  item === "Hero" ? "text-[#DA9F5B]" : "text-white"
                 } hover:underline`}
               >
                 {item}

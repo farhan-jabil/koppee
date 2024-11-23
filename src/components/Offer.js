@@ -4,6 +4,7 @@ import { images } from "../utils/demo_images";
 const Offer = () => {
   return (
     <div
+    data-aos="fade-right"
       className="overlay-both relative py-16 lg:py-24"
       style={{
         backgroundImage: `linear-gradient(rgba(51, 33, 29, 0.9), rgba(51, 33, 29, 0.9)), url(${images.background})`,

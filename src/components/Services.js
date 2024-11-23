@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <>
       <div className="service container py-5">
-        <div className="section-header relative text-center pt-24 md:pt-28 pb-9">
+        <div data-aos="fade-up" className="section-header relative text-center pt-24 md:pt-28 pb-9">
           <div className="text-2xl tracking-[5px] text-[#DA9F5B] font-medium uppercase mb-2">
             Our Service
           </div>
@@ -14,7 +14,7 @@ const Services = () => {
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 text-center md:text-left gap-12">
-          <div className="flex">
+          <div data-aos="fade-up-left" className="flex">
             <div className="">
               <img src={images.service1} alt="" />
             </div>
@@ -34,7 +34,7 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <div className="flex">
+          <div data-aos="fade-up-right" className="flex">
             <div className="">
               <img src={images.service2} alt="" />
             </div>
@@ -54,7 +54,7 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <div className="flex">
+          <div data-aos="fade-down-left" className="flex">
             <div className="">
               <img src={images.service3} alt="" />
             </div>
@@ -74,7 +74,7 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <div className="flex">
+          <div data-aos="fade-down-right" className="flex">
             <div className="">
               <img src={images.service4} alt="" />
             </div>

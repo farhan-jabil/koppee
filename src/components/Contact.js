@@ -5,6 +5,7 @@ const Contact = () => {
   return (
     <>
       <div
+       data-aos="fade-right"
         className="contact text-white font-monserrat overlay-top relative pt-12"
         style={{
           backgroundImage: `linear-gradient(rgba(51, 33, 29, 0.9), rgba(51, 33, 29, 0.9)), url(${images.background})`,

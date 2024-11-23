@@ -64,7 +64,7 @@ const Testimonial = () => {
 
   return (
     <div className="testimonial container py-5">
-      <div className="section-header relative text-center pt-24 md:pt-28 pb-9">
+      <div data-aos="fade-up" className="section-header relative text-center pt-24 md:pt-28 pb-9">
         <div className="text-2xl tracking-[5px] text-[#DA9F5B] font-medium uppercase mb-2">
           Testimonial
         </div>
@@ -74,7 +74,7 @@ const Testimonial = () => {
       </div>
       <Slider {...settings} className="cursor-pointer">
         {testimonials.map((testimonial) => (
-          <div key={testimonial.id} className="p-4">
+          <div key={testimonial.id} data-aos="fade-down" className="p-4">
             <div className="flex justify-center lg:justify-start">
               <div>
                 <img
