@@ -18,7 +18,7 @@ function App() {
 
   useEffect(() => {
     AOS.init({
-      duration: 2000,
+      duration: 1500,
       easing: "ease-in-out",
       once: true,
       anchorPlacement: "top-bottom",
@@ -98,7 +98,7 @@ function App() {
         </div>
       </div>
 
-      {/* <button
+      <button
         onClick={scrollToTop}
         className={`fixed bottom-5 right-5 bg-[#DA9F5B] text-black p-3 rounded-lg shadow-lg hover:bg-[#c2864f] transition-all duration-300 ${
           showTopButton ? "opacity-100 visible" : "opacity-0 invisible"
@@ -106,7 +106,7 @@ function App() {
         aria-label="Scroll to Top"
       >
         <i className="fa-solid fa-chevron-up"></i>
-      </button> */}
+      </button>
     </>
   );
 }
